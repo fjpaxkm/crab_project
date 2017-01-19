@@ -1,0 +1,9 @@
+<!--
+  Used for visualising rplidar in action.  
+  
+  It requires rplidar.launch.
+ -->
+<launch>
+ 
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find crab_description)/rplidar.rviz" />
+</launch>
